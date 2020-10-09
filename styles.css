@@ -1,0 +1,128 @@
+:root {
+    --main-bg-color: #E0E0E0;
+    --btn-color: #c5e043;
+    --check-btn: #6BE827;
+    --img-bg-color: #E0E0E0;
+}
+
+.body {
+    background-color: var(--main-bg-color);
+    width: 100%;
+}
+
+.left-year {
+    background-color: var(--check-btn);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.right-year {
+    background-color: var(--check-btn);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.content-div {
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.content-main-div {
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 13px;
+    height: 400px;
+    width: 23%;
+}
+
+.filter-label {
+    margin-top: 5px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    background-color: var(--img-bg-color);
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.radios .radio {
+    background-color: var(--btn-color);
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.radios input[type=radio] {
+    display: none;
+}
+
+.radios input[type=radio]:checked+.radio {
+    background-color: var(--check-btn);
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 1199.98px) {
+    .content-main-div {
+        width: 100%;
+        text-align: center;
+    }
+    .content-div {
+        margin-bottom: 18px;
+    }
+    .image {
+        height: auto;
+        width: 100%;
+    }
+}

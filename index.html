@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Space X Program</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="custom.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="col-md-12">
+            <h4>SpaceX Launch Programs</h4>
+        </div>
+        <div class="col-sm-12" style="margin-bottom:15px;">
+            <div class="col-sm-2 content-div">
+                <div class="filter-label">
+                    <label>Filters</label>
+                </div>
+                <div class="text-center" style="margin-bottom: 10px;">
+                    <u>&nbsp;&nbsp;&nbsp;Launch Year&nbsp;&nbsp;&nbsp;</u>
+                </div>
+                <div class="row radios">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2006" id="r1" />
+                            <label class="radio text-center left-year" for="r1">2006</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2007" id="r2" />
+                            <label class="radio text-center right-year" for="r2">2007</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2008" id="r3" />
+                            <label class="radio text-center left-year" for="r3">2008</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2009" id="r4" />
+                            <label class="radio text-center right-year" for="r4">2009</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2010" id="r5" />
+                            <label class="radio text-center left-year" for="r5">2010</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2011" id="r6" />
+                            <label class="radio text-center right-year" for="r6">2011</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2012" id="r7" />
+                            <label class="radio text-center left-year" for="r7">2012</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2013" id="r8" />
+                            <label class="radio text-center right-year" for="r8">2013</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2014" id="r9" />
+                            <label class="radio text-center left-year" for="r9">2014</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2015" id="r10" />
+                            <label class="radio text-center right-year" for="r10">2015</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2016" id="r11" />
+                            <label class="radio text-center left-year" for="r11">2016</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2017" id="r12" />
+                            <label class="radio text-center right-year" for="r12">2017</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2018" id="r13" />
+                            <label class="radio text-center left-year" for="r13">2018</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" name="year" value="2019" id="r14" />
+                            <label class="radio text-center right-year" for="r14">2019</label>
+                        </div>
+                    </div>
+                    <input type="radio" name="year" value="2020" id="r15" />
+                    <label class="radio text-center left-year" for="r15">2020</label>
+                </div>
+                <div class="text-center" style="margin-bottom: 10px;">
+                    <u>&nbsp;&nbsp;&nbsp;Successful Launch&nbsp;&nbsp;&nbsp;</u>
+                </div>
+                <div class="row radios">
+                    <input type="radio" name="succ_launch" value="true" id="r16" />
+                    <label class="radio text-center left-year" for="r16">True</label>
+                    <input type="radio" name="succ_launch" value="false" id="r17" />
+                    <label class="radio text-center right-year" for="r17">False</label>
+                </div>
+                <div class="text-center" style="margin-bottom: 10px;">
+                    <u>&nbsp;&nbsp;&nbsp;Successful Landing&nbsp;&nbsp;&nbsp;</u>
+                </div>
+                <div class="row radios">
+                    <input type="radio" name="succ_land" value="true" id="r18" />
+                    <label class="radio text-center left-year" for="r18">True</label>
+                    <input type="radio" name="succ_land" value="false" id="r19" />
+                    <label class="radio text-center right-year" for="r19">False</label>
+                </div>
+            </div>
+            <div class="col-sm-9" style="height: 605px; overflow-y: scroll;">
+                <span id="span_id"></span>
+                <div id="loader" style="position: absolute; margin-top: 250px; margin-left: 440px; display: none;"><img src="ajax-loader.gif"></div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div><u><b>Developed By : Devesh Sharma</b></u></div>
+        </div>
+    </div>
+</body>
+
+</html>
